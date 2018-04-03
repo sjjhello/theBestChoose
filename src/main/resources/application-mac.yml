@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbshop?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 604953521
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
+    prefix: classpath:/templates/
+
+server:
+  servlet:
+    context-path: /shop
+  port: 8081
