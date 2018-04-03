@@ -1,4 +1,4 @@
-package com.sufuring.thebestchoose;
+package com.sufuring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
