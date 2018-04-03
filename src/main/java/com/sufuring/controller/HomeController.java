@@ -9,9 +9,17 @@ public class HomeController {
      * 首页
      * @return
      */
-    @RequestMapping("/index")
+    @RequestMapping("/index.html")
     public String toIndex(){
-        return "/index";
+        return "shop/index";
     }
 
+    /**
+     * 访问根目录转发到首页
+     * @return
+     */
+    @RequestMapping("/")
+    public String index(){
+        return "forward:/index.html";
+    }
 }
